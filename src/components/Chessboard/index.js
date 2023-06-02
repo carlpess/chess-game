@@ -2,8 +2,7 @@ import './styles.css';
 
 function Chessboard() {
     return (
-        <div>
-
+        <div className='container-board'>
         </div>
     )
 }
