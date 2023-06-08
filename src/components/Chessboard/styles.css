@@ -1,6 +1,26 @@
 .container-board {
-    height: 500px;
-    width: 500px;
+    height: 800px;
+    width: 800px;
 
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: rgb(138, 43, 226);
+}
+
+div {
+    color: cyan
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+}
+
+.tile-black {
     background-color: rgb(20, 20, 20);
+}
+
+.tile-white {
+    background-color: rgb(250, 235, 215);
 }
