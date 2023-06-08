@@ -1,9 +1,10 @@
+import Chessboard from '../../components/Chessboard';
 import './styles.css';
 
 function Main() {
   return (
-    <div>
-      <h1>hello world</h1>
+    <div className='container-app'>
+      <Chessboard />
     </div>
   );
 }
