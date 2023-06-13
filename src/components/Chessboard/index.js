@@ -27,7 +27,6 @@ function Chessboard() {
                         ? 'tile-black'
                         : 'tile-white'} 
                     tile`}>
-                    {coord.name}
                 </div>
             ))}
         </div>
