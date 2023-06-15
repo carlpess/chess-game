@@ -1,3 +1,4 @@
+import Tile from '../Tile';
 import './styles.css';
 
 const vertical = ['1', '2', '3', '4', '5', '6', '7', '8'];
@@ -21,13 +22,10 @@ function Chessboard() {
     return (
         <div className='container-board'>
             {board.map((coord) => (
-                <div
+                <Tile
                     key={coord.id}
-                    className={`${coord.number === 0
-                        ? 'tile-black'
-                        : 'tile-white'} 
-                    tile`}>
-                </div>
+                    number={coord.number}
+                />
             ))}
         </div>
     )
