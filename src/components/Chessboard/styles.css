@@ -11,16 +11,3 @@
 div {
     color: cyan
 }
-
-.tile {
-    width: 100px;
-    height: 100px;
-}
-
-.tile-black {
-    background-color: rgb(20, 20, 20);
-}
-
-.tile-white {
-    background-color: rgb(250, 235, 215);
-}
