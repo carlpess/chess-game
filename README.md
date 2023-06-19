@@ -1,1 +1,1 @@
-Chessgame com react em desenvolvimento
+Chessgame com React em desenvolvimento
