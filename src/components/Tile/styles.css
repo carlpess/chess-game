@@ -1,12 +1,20 @@
 .tile {
     width: 100px;
     height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tile-black {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(65, 64, 64);
 }
 
 .tile-white {
     background-color: rgb(250, 235, 215);
+}
+
+.tile img {
+    width: 80px;
 }
