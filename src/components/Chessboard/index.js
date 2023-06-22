@@ -7,7 +7,6 @@ const horizontal = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 
 function Chessboard() {
     let board = [];
-    let key = 0;
 
     for (let y = (vertical.length - 1); y >= 0; y--) {
         for (let i = 0; i < horizontal.length; i++) {
@@ -19,12 +18,11 @@ function Chessboard() {
             })
 
             board.push({
-                id: key,
+                id: `${y}-${i}`,
                 name: `|${horizontal[i]} ${vertical[y]}|`,
                 number: (i + y + 2) % 2,
-                image: image
+                image
             });
-            key++
         }
     }
 
