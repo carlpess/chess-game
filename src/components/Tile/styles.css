@@ -7,14 +7,23 @@
     align-items: center;
 }
 
+.tile_piece {
+    width: 80px;
+    height: 80px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tile_piece:hover {
+    cursor: pointer;
+}
+
 .tile-black {
     background-color: rgb(65, 64, 64);
 }
 
 .tile-white {
     background-color: rgb(250, 235, 215);
-}
-
-.tile img {
-    width: 80px;
 }
