@@ -8,7 +8,10 @@ function Tile({ number, piece }) {
                 : 'tile-white'} 
         tile`}>
             {piece &&
-                <img src={piece} alt='piece' />
+                <div
+                    style={{ backgroundImage: `url(${piece})` }}
+                    className='tile_piece'
+                ></div>
             }
         </div>
     )
