@@ -21,7 +21,6 @@ function Tile({ number, image, pieces, setPieces, h, v, position, setPosition })
             const index = tempPieces.findIndex(piece =>
                 piece.h === position.h && piece.v === position.v
             );
-            console.log(index)
             const newPiece = { image: position.image, h, v }
 
             tempPieces.splice(index, 1, newPiece);
